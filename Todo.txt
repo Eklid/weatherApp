@@ -1,0 +1,5 @@
+1. NavBar 4 links + 1 icon[menu icon]
+2. Showcase-left 
+    icon[location] + h2
+    h1 [change font-size and font-weight] 
+    p
