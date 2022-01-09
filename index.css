@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: all 3s ease;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 
 .page {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .side-nav {
@@ -42,7 +43,13 @@ body {
   text-decoration: none;
   color: white;
   writing-mode: vertical-lr;
-  padding: 15px;
+  margin: 15px;
+  padding: 5px;
+}
+
+.side-nav-link:hover {
+  color: rgb(130, 225, 253);
+  border-left: 2px solid rgb(130, 225, 253);
 }
 
 .main-area {
@@ -102,8 +109,14 @@ body {
 .link {
   text-decoration: none;
   color: white;
-  padding: 14px;
+  margin: 10px;
+  padding: 10px;
   font-size: 22px;
+}
+
+.link:hover {
+  color: rgb(130, 225, 253);
+  border-bottom: 2px solid rgb(130, 225, 253);
 }
 
 .location {
@@ -115,4 +128,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 10%;
   padding-bottom: 7%;
+}
+
+.btn-next {
+  width: 100%;
+  padding: 6px 25px;
+  background-color: aquamarine;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  margin-top: 50px;
 }
