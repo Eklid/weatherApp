@@ -21,5 +21,5 @@ function onClick() {
     '<i class="fas fa-stopwatch"></i> Duration: 10h';
 
   document.getElementsByTagName("body")[0].style.backgroundImage =
-    'url("tirana.jpg")';
+    'url("tirana2.jpg")';
 }
