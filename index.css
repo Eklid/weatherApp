@@ -49,7 +49,7 @@ body {
 }
 
 .side-nav-link:hover {
-  color: rgb(130, 225, 253);
+  color: red;
   border-left: 2px solid rgb(130, 225, 253);
 }
 

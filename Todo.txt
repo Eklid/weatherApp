@@ -1,4 +1,7 @@
+Sa here qe mbaron 1 detyre bejme Commit 
+
 1. Rregullo ngjyrat e butonave dhe links ngjyre e celur 
+
 2. Shto disa qytete
 3. Fillo me tiranen
 4. Ndrysho paragrafin posht emrit te qytetit 
