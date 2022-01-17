@@ -24,7 +24,7 @@ function onSearch() {
       '<i class="fas fa-stopwatch"></i> Duration: 5h';
 
     document.getElementsByTagName("body")[0].style.backgroundImage =
-      'url("Durres3.jpg")'; //ndrysho foto
+      'url("durres3.jpg")';
   }
 
   if (city == "Vlora") {
