@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("weather-background.jpg");
+  background-image: url("tirana2.jpg");
   transition: all 3s ease;
 
   background-size: cover;
@@ -31,7 +31,7 @@ body {
 
 .side-nav-icon {
   margin-top: 40px;
-  color: white;
+  color: rgb(6, 124, 153);
 }
 
 .side-nav-links {
@@ -49,8 +49,8 @@ body {
 }
 
 .side-nav-link:hover {
-  color: red;
-  border-left: 2px solid rgb(130, 225, 253);
+  color: rgb(6, 124, 153);
+  border-left: 2px solid rgb(6, 124, 153);
 }
 
 .main-area {
@@ -101,7 +101,7 @@ body {
   border: 0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  background-color: #5f9ea0;
+  background-color: rgb(6, 124, 153);
 }
 
 .links-container i {
@@ -110,7 +110,7 @@ body {
 
 .menu-btn {
   padding: 14px;
-  color: white;
+  color: rgb(6, 124, 153);
 }
 
 .showcase {
@@ -154,8 +154,8 @@ body {
 }
 
 .link:hover {
-  color: rgb(130, 225, 253);
-  border-bottom: 2px solid rgb(130, 225, 253);
+  color: rgb(6, 124, 153);
+  border-bottom: 2px solid rgb(6, 124, 153);
 }
 
 .location {
@@ -172,7 +172,7 @@ body {
 .btn-next {
   width: 100%;
   padding: 7px 25px;
-  background-color: #6fc9cc;
+  background-color: rgb(6, 124, 153);
   border: 0;
   outline: 0;
   border-radius: 5px;
