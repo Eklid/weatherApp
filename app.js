@@ -1,6 +1,11 @@
 function onSearch() {
   let city = document.getElementById("city-search").value;
 
+  document.getElementById("city-content").innerText =
+    "You can get more details about " +
+    city +
+    " by exploring our official website at your mobile phone";
+
   if (city == "Durres") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Durres, Albania';
