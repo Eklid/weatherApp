@@ -6,7 +6,7 @@ function onSearch() {
     city +
     " by exploring our official website at your mobile phone";
 
-  if (city == "Durres") {
+  if (city == "Durres" || city == "durres" || city == "Durresi") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Durres, Albania';
 
@@ -32,7 +32,7 @@ function onSearch() {
       'url("durres3.jpg")';
   }
 
-  if (city == "Vlora") {
+  if (city == "Vlora" || city == "vlora" || city == "Vlore") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Vlore, Albania';
 
@@ -58,7 +58,7 @@ function onSearch() {
       'url("vlora1.png")';
   }
 
-  if (city == "Berat") {
+  if (city == "Berat" || city == "berat" || city == "Berati") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Vlore, Albania';
 
@@ -84,7 +84,7 @@ function onSearch() {
       'url("Berat.png")';
   }
 
-  if (city == "Fier") {
+  if (city == "Fier" || city == "fier" || city == "Fieri") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Vlore, Albania';
 
@@ -110,7 +110,7 @@ function onSearch() {
       'url("Fier.png")';
   }
 
-  if (city == "Shkoder") {
+  if (city == "Shkoder" || city == "shkoder" || city == "Shkodra") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Shkoder, Albania';
 
@@ -136,7 +136,7 @@ function onSearch() {
       'url("Shkodra.png")';
   }
 
-  if (city == "Tropoj") {
+  if (city == "Tropoj" || city == "tropoj" || city == "Tropoja") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Tropoja, Albania';
 
@@ -162,7 +162,7 @@ function onSearch() {
       'url("Tropoja1.png")';
   }
 
-  if (city == "Korca") {
+  if (city == "Korca" || city == "korca" || city == "Korce") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Korca, Albania';
 
@@ -188,7 +188,7 @@ function onSearch() {
       'url("Korca.png")';
   }
 
-  if (city == "Elbasan") {
+  if (city == "Elbasan" || city == "elbasan" || city == "Elbasani") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Elbasan, Albania';
 
@@ -214,7 +214,7 @@ function onSearch() {
       'url("Elbasani.png")';
   }
 
-  if (city == "Tepelen") {
+  if (city == "Tepelen" || city == "tepelen" || city == "Tepelena") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Tepelen, Albania';
 
@@ -240,7 +240,7 @@ function onSearch() {
       'url("Tepelena.png")';
   }
 
-  if (city == "Gjirokaster") {
+  if (city == "Gjirokaster" || city == "gjirokaster" || city == "GJirokastra") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Gjirokaster, Albania';
 
@@ -266,7 +266,7 @@ function onSearch() {
       'url("Gjirokaster.png")';
   }
 
-  if (city == "Sarand") {
+  if (city == "Sarand" || city == "sarand" || city == "Saranda") {
     document.getElementById("location").innerHTML =
       '<i class="fas fa-map-marker-alt"></i> Sarand, Albania';
 

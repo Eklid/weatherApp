@@ -1,8 +1,11 @@
-Sa here qe mbaron 1 detyre bejme Commit 
+Responsive
 
-1. Rregullo ngjyrat e butonave dhe links ngjyre e celur 
-
-2. Shto disa qytete
-3. Fillo me tiranen
-4. Ndrysho paragrafin posht emrit te qytetit 
-5. Gjej naj foto tjeter taksirat
+699px
+	sidenav
+	main-area
+		navbar
+		showcase1
+		showcase2[flex-direction:row]
+966px
+	sidenav  main-area
+		
