@@ -1,3 +1,14 @@
+function onShowTime() {
+  let hoursElement = document.getElementById("hours");
+  let minutesElement = document.getElementById("minutes");
+  let secondsElement = document.getElementById("seconds");
+
+  let date = new Date();
+  hoursElement.innerText = date.getHours() + " : ";
+  minutesElement.innerText = "  " + date.getMinutes() + " : ";
+  secondsElement.innerText = date.getSeconds();
+}
+setInterval(onShowTime, 1000);
 function onSearch() {
   let city = document.getElementById("city-search").value;
 

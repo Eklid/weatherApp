@@ -133,9 +133,13 @@ body {
 .showcase-right {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
+.time {
+  display: flex;
+}
 .infos {
   border-left: 3px solid white;
   padding: 20px;
